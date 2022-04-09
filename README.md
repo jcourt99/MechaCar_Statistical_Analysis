@@ -35,8 +35,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 The image below shows the data when comparing all 150 PSI readings. 
+
 ![PSI_summary](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/PSI_Summary.jpg)
 
-This image compares the PSI readings in the different lots. All 3 lots meet the design specification of 100 PSI according to the data. Lot 3 has the widest spread of data from the mean with a standard deviation of 13 PSI.  
+
+This next image compares the PSI readings in the different lots. All 3 lots meet the design specification of 100 PSI according to the data. Lot 3 has the widest spread of data from the mean with a standard deviation of 13 PSI.  
 ![Lot_summary](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary.jpg)
+
+
+## T-Tests on Suspension Coils
+
+
 
