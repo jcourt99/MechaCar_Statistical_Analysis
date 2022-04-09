@@ -49,27 +49,27 @@ The t-test is used to comopare the mean of one dataset to another under a few as
 
 The first t-test compares all three manufacturing lots to the population mean of 1500 PSI.
 The p-value of 0.06 is above the 0.05 significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis. The two means are statistically similar.
+
 ![T-test for all lots](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/t-test_all_lots.jpg)
 
 The second t-test compares Lot 1 PSI readings to the population mean of 1500 PSI. 
 The p-value of 1 is above the 0.05 significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis. The two means are statistically similar.
+
 ![T-test for Lot 1](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/t-test_lot1.jpg)
 
 The third t-test compares Lot 2 PSI readings to the population mean of 1500 PSI. 
 The p-value of 0.06 is above the 0.05 significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis. The two means are statistically similar.
+
 ![T-test for Lot 2](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/t-test_lot2.jpg)
 
 The fourth t-test compares Lot 3 PSI readings to the population mean of 1500 PSI. 
-The p-value of 0.04 is less than the 0.05 significance level. Therefore, we have sufficient evidence to reject the null hypothesis. The two means are not statistically similar.
+The p-value of 0.04 is less than the 0.05 significance level. Therefore, we have sufficient evidence to reject the null hypothesis. The two means are NOT statistically similar.
+
 ![T-test for Lot 3](https://github.com/jcourt99/MechaCar_Statistical_Analysis/blob/main/Images/t-test_lot3.jpg)
 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Another statistical study could be conducted to quantify how the MechCar performs against the competition in fuel efficiency. A one-way ANOVA test can be used to test the fuel efficiency of different cars based on vehicle class. The null hypothesis is that the means of all groups are equal. The data needed to run the ANOVA includes MPG, vehicle class, manufacturer, and model.
+
 
